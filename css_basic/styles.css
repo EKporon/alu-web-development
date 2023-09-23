@@ -1,0 +1,33 @@
+/* Apply display: flex to both <body> and <main> */
+body, main {
+    display: flex;
+}
+
+/* Apply flex-direction: column to <body> and flex-direction: row to <main> */
+body {
+    flex-direction: column;
+}
+
+main {
+    flex-direction: row;
+}
+
+/* Ensure <main> keeps an automatic height and width */
+main {
+    flex: auto;
+}
+
+/* Assign flex values to <article> and <aside> */
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+/* Apply overflow-y: auto to <article> and <aside> */
+article, aside {
+    overflow-y: auto;
+}
+
