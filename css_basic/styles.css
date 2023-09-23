@@ -30,4 +30,21 @@ aside {
 article, aside {
     overflow-y: auto;
 }
+/* Styles for screens with a maximum width of 768px (e.g., tablets) */
+@media (max-width: 768px) {
+    /* Add your responsive styles here */
+    body {
+        font-size: 16px;
+    }
+    /* Other styles for smaller screens */
+}
+
+/* Styles for screens with a minimum width of 769px (e.g., larger desktops) */
+@media (min-width: 769px) {
+    /* Add your responsive styles here */
+    body {
+        font-size: 18px;
+    }
+    /* Other styles for larger screens */
+}
 
